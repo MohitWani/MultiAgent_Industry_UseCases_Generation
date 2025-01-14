@@ -1,5 +1,5 @@
 from crewai import Task
-from Agents import industry_research_agent, resource_asset_allocation, orchestrator_agent, use_case_generation
+from utils.Agents import industry_research_agent, use_case_generation, orchestrator_agent, resource_asset_allocation 
 
 industry_task = Task(
             description=(
@@ -57,5 +57,7 @@ compilation_task = Task(
             context=[industry_task, use_case_task, resource_collection_task],
             output_file= 'final_report.md',
         )
+
+
 
 tasks = [industry_task, use_case_task, resource_collection_task, compilation_task]

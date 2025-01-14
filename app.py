@@ -34,20 +34,3 @@ query = st.text_input("Write a Industry Name")
 
 if st.button("Submit"):
     st.write(run(query))
-
-
-# with gr.Blocks() as app:
-#     gr.Markdown("# Market Research Agent")
-#     with gr.Row(equal_height=True):
-#         textbox = gr.Textbox(lines=1, label='Industry Name', placeholder="Enter industry name")
-#         button = gr.Button('Submit')
-
-#     outputs = gr.Markdown()  
-
-#     button.click(
-#         fn=run,  
-#         inputs=textbox,  
-#         outputs=outputs  
-#     )
-
-# app.launch(share=True)
