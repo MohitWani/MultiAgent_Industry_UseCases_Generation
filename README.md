@@ -1,6 +1,6 @@
 # MultiAgent_Industry_UseCases_Generation
 
-This project is designed to use a Multi-Agent Architecture get information quickly without wasting time to read research paper. It implement Arxiv AGENT, Tools and Advance Retrieval Augmented Generation to get relevant information about any research papers.
+This project is designed to use a Multi-Agent Architecture get Report and information quickly about Industry and Usecases of AI in that Industry. It implement Multi-AGENT and Tools like serperdev for web search.
 
 ---
 
